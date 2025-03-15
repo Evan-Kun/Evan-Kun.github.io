@@ -23,10 +23,10 @@ repository               : "Evan-Kun/Evan-Kun.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Kun"
+  name             : "Kun Han"
   pronouns         : # he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Melbourne"
+  location         : "North Melbourne, Victoria, Australia"
   employer         : "University of Queensland"
   uri              : # URL
   email            : "kun.han@uq.edu.au" 
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "kun-han-uq"# Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
