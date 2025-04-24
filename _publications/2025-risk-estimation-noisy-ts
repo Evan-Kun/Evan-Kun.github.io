@@ -1,7 +1,7 @@
 ---
 title: "Mining Irregular Time Series Data with Noisy Labels: A Risk Estimation Approach"
 collection: publications
-category: manuscripts                      # or `conference-proceedings`
+category: conferences                      # or `conference-proceedings`
 permalink: /publication/2025-risk-estimation-noisy-ts
 excerpt: |
   We introduce a principled risk-estimation framework for mining **irregular time-series data with noisy labels**. By modelling per-instance noise and calibrating risk bounds, our method delivers robust classification while providing uncertainty estimates that aid downstream decision-making.
