@@ -13,3 +13,25 @@ My research focuses on trustworthy AI, specifically robust and interpretable tim
 
 # News
 Our paper "HITS: Hierarchical Interpretable Time Series Classification via Multiple Instance Learning" has been accepted in IJCNN 2025
+Our paper "Mining Irregular Time Series Data with Noisy Labels: A Risk Estimation Approach" has been accepted in ADC 2024
+
+# Technical Stack
+
+| Category   |      Tools & Technologies      | 
+|----------|:-------------:|
+ Languages | Python, TypeScript / JavaScript, PHP, Bash, SQL 
+ ML / DL | PyTorch, TensorFlow 2, scikit-learn, PyG, DGL, Hugging Face, Optuna 
+Web | Laravel (Jetstream & Filament), Node.js, Express, React, Tailwind CSS, Livewire, Blade
+Data | Pandas, Polars, NumPy, Spark (PySpark), AWS Glue, Apache Parquet, Arrow
+Cloud | AWS S3, EC2, RDS, Lambda, Glue, Athena, IAM, CloudWatch, Route 53
+DevOps | Docker, Docker Compose, Git, GitHub Actions, Terraform, Ansible
+Databases | MySQL, PostgreSQL, DynamoDB, SQLite
+Visualization | Matplotlib, Plotly, Superset, Metabase
+OS / Platforms | Ubuntu, macOS, Windows
+Testing & QA | PyTest, PHPUnit, Jest, Cypress
+Other | LaTeX, Markdown, Jupyter, VS Code, PyCharm
+
+# What I’m Looking For
+I’m keen to bring my blend of research depth and production pragmatism to roles such as Machine Learning Engineer, Data Scientist, or Full-Stack / MLOps Engineer—especially where interpretability, reliability, and cloud scalability matter.
+
+Let’s connect and explore how we can build intelligent, impactful solutions together!
