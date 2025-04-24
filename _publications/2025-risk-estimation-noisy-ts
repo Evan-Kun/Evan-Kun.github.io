@@ -1,0 +1,25 @@
+---
+title: "Mining Irregular Time Series Data with Noisy Labels: A Risk Estimation Approach"
+collection: publications
+category: manuscripts                      # or `conference-proceedings`
+permalink: /publication/2025-risk-estimation-noisy-ts
+excerpt: |
+  We introduce a principled risk-estimation framework for mining **irregular time-series data with noisy labels**. By modelling per-instance noise and calibrating risk bounds, our method delivers robust classification while providing uncertainty estimates that aid downstream decision-making.
+date: 2025-04-01                           # adjust to the actual conference date
+venue: "Australasian Database Conference (ADC 2025)"
+paperurl: ""                               # add DOI or PDF link when available
+slidesurl: ""                              # optional
+codeurl:  ""                               # optional GitHub repo
+citation: |
+  Kun Han, Abigail M.Y. Koay, Ryan K.L. Ko, Weitong Chen & Miao Xu (2025).  
+  “Mining Irregular Time Series Data with Noisy Labels: A Risk Estimation Approach.” *Proceedings of the Australasian Database Conference (ADC 2025)*, pp.&nbsp;293–307. Springer, Singapore.
+---
+
+Label noise and irregular sampling often co-occur in real-world sensor and log streams, degrading model reliability.  
+Our proposed **Noise-Aware Risk Estimation (NARE)** framework:
+
+* **Models timestamp-level noise** via a Beta-Bernoulli prior, enabling adaptive confidence weighting.  
+* **Derives a closed-form risk estimator** that upper-bounds the true empirical risk under irregular sampling.  
+* **Incorporates a co-teaching curriculum** that gradually filters high-risk instances during training.
+
+On three public IoT and healthcare benchmarks, NARE improves macro-F1 by up to **8 pp** over state-of-the-art robust TSC baselines, while offering calibrated uncertainty scores for critical-event detection.
