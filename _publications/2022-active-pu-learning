@@ -1,7 +1,7 @@
 ---
 title: "Investigating Active Positive-Unlabeled Learning with Deep Networks"
 collection: publications
-category: manuscripts            # or `conference-proceedings` if you split by type
+category: conferences            # or `conference-proceedings` if you split by type
 permalink: /publication/2022-active-pu-learning
 excerpt: |
   We propose an active learning framework that combines positive–unlabeled (PU) learning with deep networks. By actively querying the most informative negatives, our method reduces annotation cost while maintaining competitive performance on noisy real-world data.
