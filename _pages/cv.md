@@ -24,6 +24,7 @@ Core Strengths
 
 Technical Toolkit
 ======
+
 | Domain | Key Tools & Frameworks |
 |--------|------------------------|
 | **Languages** | Python, TypeScript/JavaScript, PHP, Bash, SQL |
