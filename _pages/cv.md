@@ -24,19 +24,17 @@ Core Strengths
 
 Technical Toolkit
 ======
-| Category   |      Tools & Technologies      | 
-|----------|:-------------:|
- Languages | Python, TypeScript / JavaScript, PHP, Bash, SQL 
- ML / DL | PyTorch, TensorFlow 2, scikit-learn, PyG, DGL, Hugging Face, Optuna 
-Web | Laravel (Jetstream & Filament), Node.js, Express, React, Tailwind CSS, Livewire, Blade
-Data | Pandas, Polars, NumPy, Spark (PySpark), AWS Glue, Apache Parquet, Arrow
-Cloud | AWS S3, EC2, RDS, Lambda, Glue, Athena, IAM, CloudWatch, Route 53
-DevOps | Docker, Docker Compose, Git, GitHub Actions, Terraform, Ansible
-Databases | MySQL, PostgreSQL, DynamoDB, SQLite
-Visualization | Matplotlib, Plotly, Superset, Metabase
-OS / Platforms | Ubuntu, macOS, Windows
-Testing & QA | PyTest, PHPUnit, Jest, Cypress
-Other | LaTeX, Markdown, Jupyter, VS Code, PyCharm
+* **Languages** Python, TypeScript / JavaScript, PHP, Bash, SQL 
+* **ML / DL** PyTorch, TensorFlow 2, scikit-learn, PyG, DGL, Hugging Face, Optuna 
+* **Web** Laravel (Jetstream & Filament), Node.js, Express, React, Tailwind CSS, Livewire, Blade
+* **Data** Pandas, Polars, NumPy, Spark (PySpark), AWS Glue, Apache Parquet, Arrow
+* **Cloud** AWS S3, EC2, RDS, Lambda, Glue, Athena, IAM, CloudWatch, Route 53
+* **DevOps** Docker, Docker Compose, Git, GitHub Actions, Terraform, Ansible
+* **Databases** MySQL, PostgreSQL, DynamoDB, SQLite
+* **Visualization** Matplotlib, Plotly, Superset, Metabase
+* **OS / Platforms** Ubuntu, macOS, Windows
+* **Testing & QA** PyTest, PHPUnit, Jest, Cypress
+* **Other** LaTeX, Markdown, Jupyter, VS Code, PyCharm
 
 Education
 ======
