@@ -23,15 +23,4 @@ We introduce **A-PU-Net**, an end-to-end deep framework that:
 
 Experiments on benchmark image and text datasets demonstrate up to **35 % fewer queries** at equivalent F1 score compared with baselines, highlighting the efficiency of our approach.
 
-> **BibTeX**
-> ```bibtex
-> @inproceedings{HanCX22,
->   author    = {Kun Han and Weitong Chen and Miao Xu},
->   title     = {Investigating Active Positive-Unlabeled Learning with Deep Networks},
->   booktitle = {AI 2021: Advances in Artificial Intelligence},
->   pages     = {607--618},
->   year      = {2022},
->   doi       = {10.1007/978-3-030-97546-3_49}
-> }
-> ```
-Feel free to tweak `excerpt`, add `slidesurl`/`codeurl`, or change the `permalink` structure to match the rest of your site.
+
