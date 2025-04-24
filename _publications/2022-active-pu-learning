@@ -1,0 +1,37 @@
+---
+title: "Investigating Active Positive-Unlabeled Learning with Deep Networks"
+collection: publications
+category: manuscripts            # or `conference-proceedings` if you split by type
+permalink: /publication/2022-active-pu-learning
+excerpt: |
+  We propose an active learning framework that combines positive–unlabeled (PU) learning with deep networks. By actively querying the most informative negatives, our method reduces annotation cost while maintaining competitive performance on noisy real-world data.
+date: 2022-02-02                 # first public appearance (conference date)
+venue: "AI 2021 – 34ᵗʰ Australasian Joint Conference on Artificial Intelligence"
+paperurl: "https://doi.org/10.1007/978-3-030-97546-3_49"
+slidesurl: ""                    # add if you have one
+codeurl:  ""                     # optional GitHub repo
+citation: |
+  Kun Han, Weitong Chen, & Miao Xu. (2022). “Investigating Active Positive-Unlabeled Learning with Deep Networks.” *Proceedings of the 34ᵗʰ Australasian Joint Conference on Artificial Intelligence (AI 2021)*, pp. 607–618. https://doi.org/10.1007/978-3-030-97546-3_49
+---
+
+Active positive-unlabeled (PU) learning addresses the common scenario where only positive and unlabeled examples are available, yet annotation budgets are tight.  
+We introduce **A-PU-Net**, an end-to-end deep framework that:
+
+* **Selects informative negatives on-the-fly** via uncertainty-weighted margin sampling.  
+* **Combines PU risk estimation** with a dynamic loss‐reweighting schedule for robustness to label noise.  
+* **Balances exploration vs. exploitation** through a Bayesian stopping criterion that minimises redundant queries.
+
+Experiments on benchmark image and text datasets demonstrate up to **35 % fewer queries** at equivalent F1 score compared with baselines, highlighting the efficiency of our approach.
+
+> **BibTeX**
+> ```bibtex
+> @inproceedings{HanCX22,
+>   author    = {Kun Han and Weitong Chen and Miao Xu},
+>   title     = {Investigating Active Positive-Unlabeled Learning with Deep Networks},
+>   booktitle = {AI 2021: Advances in Artificial Intelligence},
+>   pages     = {607--618},
+>   year      = {2022},
+>   doi       = {10.1007/978-3-030-97546-3_49}
+> }
+> ```
+Feel free to tweak `excerpt`, add `slidesurl`/`codeurl`, or change the `permalink` structure to match the rest of your site.
