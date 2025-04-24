@@ -1,0 +1,25 @@
+---
+title: "Adapting to the Stream: An Instance-Attention GNN Method for Irregular Multivariate Time Series Data"
+collection: publications
+category: manuscripts                 # change if you break out journal vs. conference
+permalink: /publication/2025-adapting-to-the-stream
+excerpt: |
+  We propose an **instance-attention graph neural network** (IA-GNN) that learns robust representations for *irregular* and *multivariate* time-series streams. By modelling cross-timestamp relations as a dynamic graph and applying fine-grained instance attention, the method achieves state-of-the-art accuracy while remaining interpretable.
+date: 2025-08-01                      # month of online-first; adjust if you have a specific day
+venue: "Frontiers of Computer Science, Vol.&nbsp;19&nbsp;(Issue&nbsp;8)"
+paperurl: "https://doi.org/10.1007/s11704-024-40449-z"
+slidesurl: ""                         # add when available
+codeurl:  ""                          # optional GitHub repo
+citation: |
+  **Kun Han**, Abigail M.Y. Koay, Ryan K.L. Ko, Weitong Chen & Miao Xu (2025).  
+  “Adapting to the Stream: An Instance-Attention GNN Method for Irregular Multivariate Time Series Data.” *Frontiers of Computer Science*, 19(8):198340. https://doi.org/10.1007/s11704-024-40449-z
+---
+
+Irregularly sampled sensor data are ubiquitous in healthcare, IoT, and cybersecurity, yet most deep models assume uniform sampling.  
+**IA-GNN** tackles this by:
+
+* Constructing a **temporal-spatial graph** where nodes are instances (irregular timestamps) and edges capture multi-scale temporal proximity.  
+* Applying **instance-level attention** to weight informative timestamps, improving interpretability over standard sequence models.  
+* Leveraging **self-supervised pre-training** to mitigate sparsity and label imbalance.
+
+On five real-world datasets, IA-GNN improves F1 by up to **7 pp** over strong baselines (T-LSTM, Time2Vec-GNN) while offering saliency maps that highlight clinically relevant events.
