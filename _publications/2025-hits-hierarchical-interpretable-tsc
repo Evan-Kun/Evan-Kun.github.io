@@ -1,0 +1,25 @@
+---
+title: "HITS: Hierarchical Interpretable Time Series Classification via Multiple Instance Learning"
+collection: publications
+category: conferences
+permalink: /publication/2025-hits-hierarchical-interpretable-tsc
+excerpt: |
+  **HITS** introduces a two-level MIL framework that combines variable-level and temporal-patch attention, achieving state-of-the-art accuracy on irregular multivariate time-series benchmarks while delivering clear, human-readable explanations.
+date: 2025-07-15                        # first day of IJCNN 2025 (adjust if needed)
+venue: "IJCNN 2025 – International Joint Conference on Neural Networks"
+paperurl: ""                            # add DOI or PDF link when available
+slidesurl: ""                           # optional
+codeurl:  ""                            # optional GitHub repo
+citation: |
+  Kun Han, Abigail M.​Y. Koay, Ryan K.​L. Ko, Weitong Chen & Miao Xu (2025).  
+  “HITS: Hierarchical Interpretable Time Series Classification via Multiple Instance Learning.” *Proceedings of the International Joint Conference on Neural Networks (IJCNN 2025)*. Rome, Italy.
+---
+
+Deep models often trade interpretability for accuracy—especially on multivariate, irregular time-series data.  
+**HITS** (Hierarchical Interpretable Time Series) bridges this gap by:
+
+* **Variable-level MIL attention** to spotlight the most informative sensors or channels.  
+* **Patch-level temporal pooling** that captures long-range dependencies without over-segmenting data.  
+* An **information-bottleneck regulariser** ensuring concise, human-interpretable saliency maps.
+
+Across 12 healthcare and IoT datasets, HITS matches or exceeds the performance of leading baselines (TimeMIL, PatchTST) while reducing explanation entropy by **32 %**, making insights clearer for domain experts.
